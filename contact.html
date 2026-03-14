@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - FLY KUBER | Premium Helicopter Services</title>
+    <meta name="description" content="Contact FLY KUBER for Chardham Yatra helicopter bookings. Get in touch with us for premium helicopter services in Uttarakhand.">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .map-placeholder {
+            background: #4a90e2 !important;
+            min-height: 450px !important;
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: center !important;
+            justify-content: center !important;
+            text-align: center !important;
+            padding: 60px !important;
+            position: relative !important;
+            border: 5px solid #ff6b6b !important;
+            overflow: hidden !important;
+        }
+        .map-placeholder i {
+            font-size: 5rem !important;
+            color: #ffffff !important;
+            margin-bottom: 24px !important;
+            text-shadow: 0 4px 15px rgba(0, 0, 0, 0.5) !important;
+        }
+        .map-placeholder h3 {
+            font-size: 2.5rem !important;
+            color: #ffffff !important;
+            margin-bottom: 16px !important;
+            font-weight: 600 !important;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
+        }
+        .map-placeholder p {
+            color: #ffffff !important;
+            margin-bottom: 32px !important;
+            font-size: 1.25rem !important;
+            line-height: 1.6 !important;
+            max-width: 600px !important;
+            font-weight: 500 !important;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Skip to content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html" class="logo">
+                        <i class="fas fa-helicopter"></i>
+                        <span>FLY KUBER</span>
+                    </a>
+                </div>
+                
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="index.html#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html#about" class="nav-link">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="index.html#packages" class="nav-link dropdown-toggle">
+                                Packages <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a href="packages.html">Chardham</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link active">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav-actions">
+                    <button class="btn btn-primary" onclick="scrollToContact()">
+                        <i class="fas fa-phone"></i>
+                        Book Now
+                    </button>
+                    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" style="margin-top: 0; padding-top: 0;">
+        <!-- Page Header -->
+        <section class="page-header" id="top" style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%); padding: 20px 0 var(--spacing-3xl); text-align: center; color: var(--text-white); margin-top: 0;">
+            <div class="container">
+                <div class="page-header-content">
+                    <h1 class="page-title">Contact Us</h1>
+                    <p class="page-subtitle">Get in touch with FLY KUBER for your divine journey</p>
+                    <nav class="breadcrumb">
+                        <a href="index.html">Home</a>
+                        <span class="breadcrumb-separator">/</span>
+                        <span class="breadcrumb-current">Contact Us</span>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact" style="background: #1a1a1a !important; padding: 80px 0 !important;">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" style="color: #ffffff !important;">Get in Touch</h2>
+                    <p class="section-subtitle" style="color: #999999 !important;">Contact us for bookings and inquiries</p>
+                </div>
+
+                <div class="contact-info" style="margin-bottom: 60px;">
+                    <div class="contact-item" style="display: flex !important; gap: 20px !important; margin-bottom: 30px !important;">
+                        <div class="contact-icon" style="background: #c9a96e !important; width: 50px !important; height: 50px !important; display: flex !important; align-items: center !important; justify-content: center !important; border-radius: 50% !important; flex-shrink: 0 !important;">
+                            <i class="fas fa-map-marker-alt" style="color: #000000 !important; font-size: 20px !important;"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 style="color: #ffffff !important; font-size: 18px !important; font-weight: 600 !important; margin-bottom: 8px !important;">Address</h3>
+                            <p style="color: #999999 !important; line-height: 1.6 !important;">Canal Rd, Jakhan, Dehradun, Uttarakhand</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item" id="phone" style="display: flex !important; gap: 20px !important; margin-bottom: 30px !important;">
+                        <div class="contact-icon" style="background: #c9a96e !important; width: 50px !important; height: 50px !important; display: flex !important; align-items: center !important; justify-content: center !important; border-radius: 50% !important; flex-shrink: 0 !important;">
+                            <i class="fas fa-phone-alt" style="color: #000000 !important; font-size: 20px !important;"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 style="color: #ffffff !important; font-size: 18px !important; font-weight: 600 !important; margin-bottom: 8px !important;">Phone Numbers</h3>
+                            <p style="color: #999999 !important; line-height: 1.6 !important;">
+                                <a href="tel:+91-1353539720" style="color: #ffffff !important; text-decoration: none !important; transition: color 0.3s ease;" onmouseover="this.style.color='#c9a96e'" onmouseout="this.style.color='#ffffff'">+91-1353539720</a><br>
+                                <a href="tel:+91-8958514942" style="color: #ffffff !important; text-decoration: none !important; transition: color 0.3s ease;" onmouseover="this.style.color='#c9a96e'" onmouseout="this.style.color='#ffffff'">+91-8958514942</a><br>
+                                <a href="tel:+91-9458140920" style="color: #ffffff !important; text-decoration: none !important; transition: color 0.3s ease;" onmouseover="this.style.color='#c9a96e'" onmouseout="this.style.color='#ffffff'">+91-9458140920</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item" style="display: flex !important; gap: 20px !important; margin-bottom: 30px !important;">
+                        <div class="contact-icon" style="background: #c9a96e !important; width: 50px !important; height: 50px !important; display: flex !important; align-items: center !important; justify-content: center !important; border-radius: 50% !important; flex-shrink: 0 !important;">
+                            <i class="fas fa-envelope" style="color: #000000 !important; font-size: 20px !important;"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 style="color: #ffffff !important; font-size: 18px !important; font-weight: 600 !important; margin-bottom: 8px !important;">Email</h3>
+                            <p style="color: #999999 !important; line-height: 1.6 !important;">
+                                <a href="mailto:info@kuberaviation.com" style="color: #ffffff !important; text-decoration: none !important; transition: color 0.3s ease;" onmouseover="this.style.color='#c9a96e'" onmouseout="this.style.color='#ffffff'">info@kuberaviation.com</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item" style="display: flex !important; gap: 20px !important;">
+                        <div class="contact-icon" style="background: #c9a96e !important; width: 50px !important; height: 50px !important; display: flex !important; align-items: center !important; justify-content: center !important; border-radius: 50% !important; flex-shrink: 0 !important;">
+                            <i class="fas fa-clock" style="color: #000000 !important; font-size: 20px !important;"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 style="color: #ffffff !important; font-size: 18px !important; font-weight: 600 !important; margin-bottom: 8px !important;">Business Hours</h3>
+                            <p style="color: #999999 !important; line-height: 1.6 !important;">Monday - Saturday: 9:00 AM - 7:00 PM</p>
+                            <p style="color: #999999 !important; line-height: 1.6 !important;">Sunday: 10:00 AM - 5:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form - Simple Working Version -->
+                <div id="contact-form" style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(20px); padding: 30px; border-radius: 15px; max-width: 600px; margin: 0 auto 60px auto; border: 1px solid rgba(255, 255, 255, 0.2); box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);">
+                    <h2 style="color: #ffffff; text-align: center; margin-bottom: 30px;">Send us a Message</h2>
+                    <form id="bookingForm" onsubmit="handleBookingSubmit(event)">
+                        <div style="margin-bottom: 20px;">
+                            <label for="name" style="display: block; margin-bottom: 5px; color: #cccccc; font-weight: 500;">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your full name" style="width: 100%; padding: 15px; border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 8px; background: rgba(255, 255, 255, 0.05); color: #ffffff; font-size: 16px; box-sizing: border-box; transition: all 0.3s ease;" onmouseover="this.style.background='rgba(255, 255, 255, 0.1)'; this.style.borderColor='rgba(255, 255, 255, 0.5)';" onmouseout="this.style.background='rgba(255, 255, 255, 0.05)'; this.style.borderColor='rgba(255, 255, 255, 0.3)';">
+                        </div>
+                        
+                        <div style="margin-bottom: 20px;">
+                            <label for="email" style="display: block; margin-bottom: 5px; color: #cccccc; font-weight: 500;">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="Enter your email" style="width: 100%; padding: 15px; border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 8px; background: rgba(255, 255, 255, 0.05); color: #ffffff; font-size: 16px; box-sizing: border-box; transition: all 0.3s ease;" onmouseover="this.style.background='rgba(255, 255, 255, 0.1)'; this.style.borderColor='rgba(255, 255, 255, 0.5)';" onmouseout="this.style.background='rgba(255, 255, 255, 0.05)'; this.style.borderColor='rgba(255, 255, 255, 0.3)';">
+                        </div>
+                        
+                        <div style="margin-bottom: 20px;">
+                            <label for="phone" style="display: block; margin-bottom: 5px; color: #cccccc; font-weight: 500;">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number" style="width: 100%; padding: 15px; border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 8px; background: rgba(255, 255, 255, 0.05); color: #ffffff; font-size: 16px; box-sizing: border-box; transition: all 0.3s ease;" onmouseover="this.style.background='rgba(255, 255, 255, 0.1)'; this.style.borderColor='rgba(255, 255, 255, 0.5)';" onmouseout="this.style.background='rgba(255, 255, 255, 0.05)'; this.style.borderColor='rgba(255, 255, 255, 0.3)';">
+                        </div>
+                        
+                        <div style="margin-bottom: 20px;">
+                            <label for="package" style="display: block; margin-bottom: 5px; color: #cccccc; font-weight: 500;">Select Package *</label>
+                            <div style="position: relative;">
+                                <select id="package" name="package" required style="width: 100%; padding: 15px; border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 8px; background: rgba(255, 255, 255, 0.05); color: #ffffff; font-size: 16px; box-sizing: border-box; cursor: pointer; transition: all 0.3s ease; -webkit-appearance: none; -moz-appearance: none; appearance: none;" onmouseover="this.style.background='rgba(255, 255, 255, 0.1)'; this.style.borderColor='rgba(255, 255, 255, 0.5)';" onmouseout="this.style.background='rgba(255, 255, 255, 0.05)'; this.style.borderColor='rgba(255, 255, 255, 0.3)';">
+                                    <option value="" style="background: rgba(0, 0, 0, 0.8) !important; color: #cccccc !important;">Choose a package</option>
+                                    <option value="Chardham 05N/06D" style="background: rgba(0, 0, 0, 0.8) !important; color: #ffffff !important;">Chardham 05N/06D</option>
+                                    <option value="Char Dham 02N/03D" style="background: rgba(0, 0, 0, 0.8) !important; color: #ffffff !important;">Char Dham : 02 N/03 D</option>
+                                    <option value="Do Dham Same Day" style="background: rgba(0, 0, 0, 0.8) !important; color: #ffffff !important;">Do Dham (Same Day)</option>
+                                    <option value="Do Dham 3N/4D" style="background: rgba(0, 0, 0, 0.8) !important; color: #ffffff !important;">Do Dham Yatra (3N/4D)</option>
+                                    <option value="Adi Kailash" style="background: rgba(0, 0, 0, 0.8) !important; color: #ffffff !important;">Adi Kailash</option>
+                                    <option value="General Inquiry" style="background: rgba(0, 0, 0, 0.8) !important; color: #ffffff !important;">General Inquiry</option>
+                                </select>
+                                <style>
+                                    #package option {
+                                        background: rgba(0, 0, 0, 0.8) !important;
+                                        color: #ffffff !important;
+                                    }
+                                    #package option:first-child {
+                                        color: #cccccc !important;
+                                    }
+                                </style>
+                            </div>
+                        </div>
+                        
+                        <div style="margin-bottom: 20px;">
+                            <label for="message" style="display: block; margin-bottom: 5px; color: #cccccc; font-weight: 500;">Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your requirements..." style="width: 100%; padding: 15px; border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 8px; background: rgba(255, 255, 255, 0.05); color: #ffffff; font-size: 16px; box-sizing: border-box; resize: vertical; min-height: 120px; transition: all 0.3s ease;" onmouseover="this.style.background='rgba(255, 255, 255, 0.1)'; this.style.borderColor='rgba(255, 255, 255, 0.5)';" onmouseout="this.style.background='rgba(255, 255, 255, 0.05)'; this.style.borderColor='rgba(255, 255, 255, 0.3)';"></textarea>
+                        </div>
+                        
+                        <button type="submit" style="background: #c9a96e; color: #000000; padding: 15px 30px; border: none; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer; width: 100%; transition: all 0.3s ease;" onmouseover="this.style.background='#b8945d'; this.style.transform='translateY(-2px)';" onmouseout="this.style.background='#c9a96e'; this.style.transform='translateY(0px)';">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Find Us</h2>
+                    <p class="section-subtitle">Visit our office in Dehradun</p>
+                </div>
+                <div class="map-container">
+                    <iframe 
+                        src="https://maps.google.com/maps?q=Canal+Rd+Jakhan+Dehradun+Uttarakhand&output=embed" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0; border-radius: var(--radius-lg);"
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                    <p class="section-subtitle">Common questions about our services</p>
+                </div>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How do I book a Chardham Yatra package?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>You can book by filling out our contact form, calling our phone numbers, or visiting our office in Dehradun. Our team will guide you through the booking process.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What is included in the helicopter packages?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Our packages include helicopter transfers, accommodation, meals, priority darshan arrangements, and ground transportation as specified in each package.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Are the helicopter services safe?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Absolutely! We maintain 100% safety record with experienced pilots, regular maintenance, and adherence to all aviation safety regulations.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What is the best time to visit Chardham?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>The best time is from May to October when the weather is pleasant and the temples are accessible. We recommend booking in advance for the best availability.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-helicopter"></i>
+                        <span>FLY KUBER</span>
+                    </div>
+                    <p class="footer-description">
+                        Premium helicopter services for Chardham Yatra and pilgrimage tours in Uttarakhand.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="index.html#packages">Packages</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Popular Packages</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html#chardham-5n6d">Chardham 05N/06D</a></li>
+                        <li><a href="index.html#do-dham-same">Do Dham (Same Day)</a></li>
+                        <li><a href="index.html#adi-kailash">Adi Kailash</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 FLY KUBER. All rights reserved. | Designed with <i class="fas fa-heart"></i> for divine journeys</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" onclick="scrollToTop()" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-functions-compat.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        // Initialize Firebase
+        const firebaseConfig = {
+            apiKey: "AIzaSyAywGuW14rxo3ZLnk2icuu6WAgz1vE-K3g",
+            authDomain: "kuber-aviation-website.firebaseapp.com",
+            projectId: "kuber-aviation-website",
+            storageBucket: "kuber-aviation-website.firebasestorage.app",
+            messagingSenderId: "995988119851",
+            appId: "1:995988119851:web:55fe53d4cea9a28eb7656e",
+            measurementId: "G-MS9CW2Q779"
+        };
+        
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const functions = firebase.functions();
+
+        // Handle form submission
+        async function handleBookingSubmit(event) {
+            event.preventDefault();
+            
+            const submitButton = event.target.querySelector('button[type="submit"]');
+            const originalText = submitButton.textContent;
+            
+            // Show loading state
+            submitButton.textContent = 'Sending...';
+            submitButton.disabled = true;
+            
+            try {
+                // Get form data
+                const formData = new FormData(event.target);
+                const data = {
+                    name: formData.get('name'),
+                    email: formData.get('email'),
+                    phone: formData.get('phone'),
+                    package: formData.get('package'),
+                    message: formData.get('message')
+                };
+                
+                // Call Firebase function
+                const sendContactForm = functions.httpsCallable('sendContactForm');
+                const result = await sendContactForm(data);
+                
+                if (result.data.success) {
+                    // Show success message
+                    showNotification('Message sent successfully! We will contact you soon.', 'success');
+                    event.target.reset();
+                } else {
+                    showNotification('Failed to send message. Please try again.', 'error');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                showNotification('Failed to send message. Please try again.', 'error');
+            } finally {
+                // Reset button state
+                submitButton.textContent = originalText;
+                submitButton.disabled = false;
+            }
+        }
+        
+        // Show notification
+        function showNotification(message, type) {
+            // Create notification element
+            const notification = document.createElement('div');
+            notification.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                padding: 15px 20px;
+                border-radius: 8px;
+                color: white;
+                font-weight: 500;
+                z-index: 10000;
+                max-width: 300px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+                transform: translateX(100%);
+                transition: transform 0.3s ease;
+            `;
+            
+            // Set background color based on type
+            if (type === 'success') {
+                notification.style.background = '#4CAF50';
+            } else {
+                notification.style.background = '#f44336';
+            }
+            
+            notification.textContent = message;
+            document.body.appendChild(notification);
+            
+            // Show notification
+            setTimeout(() => {
+                notification.style.transform = 'translateX(0)';
+            }, 100);
+            
+            // Hide after 5 seconds
+            setTimeout(() => {
+                notification.style.transform = 'translateX(100%)';
+                setTimeout(() => {
+                    document.body.removeChild(notification);
+                }, 300);
+            }, 5000);
+        }
+    </script>
+</body>
+</html>
