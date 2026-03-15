@@ -1,0 +1,24 @@
+{
+  "name": "kuber-aviation-modern",
+  "version": "1.0.0",
+  "description": "Premium helicopter aviation website for Chardham Yatra",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "build": "echo 'Build complete - static site ready'"
+  },
+  "keywords": [
+    "helicopter",
+    "aviation",
+    "chardham",
+    "yatra",
+    "travel",
+    "website"
+  ],
+  "author": "Kuber Aviation",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

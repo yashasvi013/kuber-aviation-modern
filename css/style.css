@@ -625,7 +625,7 @@ body {
     padding-bottom: 300px;
     overflow: hidden;
     color: var(--text-white);
-    background: url('http://localhost:8001/peacockbgi.png') center/80% no-repeat fixed !important;
+    background: url('../assets/svg/Images/peacockbgi.png') center/80% no-repeat fixed !important;
 }
 
 .hero-overlay {
